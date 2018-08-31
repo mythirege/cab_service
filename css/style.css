@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Home page */
+
+.home_pic{
+    width: 100%;
+    height: 100%;
+}
+
+
+iframe{
+     
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*About us page*/
+.about_body {
+	padding: 0;
+	margin: 0;
+    background-image: url(../images/on.jpg);
+}
+
+.h1 {
+	text-align: center;
+    font-size:50px;
+    font-weight:bold;
+}
+
+
+.grid-box{
+    width: 80%;  
+    min-height: 100%;
+    background:pink;
+    opacity:0.85;
+    display: block;
+    grid-column-gap: 5px;
+    padding: 1rem;
+    border-left: 0;
+    border-right: 0 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right:0;
+} 
+
+.grid-item{
+    display: block;
+    float: left;
+    width: 25%;
+   
+}
+
+h2.grid-item{
+    font-size: 16px;
+    text-align: left;
+}
+
+p.grid-item{
+    font-size: 16px;
+	color: rgb(0,0,0);
+	top: auto;
+	margin: 50px 50px; 
+}
+
+
+/* Header styles*/
+
+body{
+   /* background-image: url(../images/on.jpg);*/
+	padding: 0;
+	margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: #0009;
+	line-height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+nav ul{
+	margin-right: 30px;
+}
+
+nav ul li{
+	display: inline-block;
+	transition:0.8s ;
+}
+
+nav ul li:hover{
+	background-color:hotpink; 
+    
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+
+}
+
+
+#ul{padding-top:8px; }
+
+#ul li{
+    list-style: none;
+    display: inline;
+}
+
+#ul li a:link{
+    color: white;
+    border-right: 1px;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+
+.up {
+    z-index: 8;
+}
+
+/*Drop down of home page*/
+
+.dropdown {
+    top: 0;
+    position:absolute;
+    width: 200px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    z-index:1;
+	
+}
+    
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: dimgray;
+    width: 100px;
+    z-index: 1;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    
+   
+}
+
+.dropdown-content a {
+    background-color:dimgray;
+    width: 100px;
+    z-index: 1;
+    text-align: center;
+    padding: 0 5px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    left: 0;
+}
+
+.dropdown-content a:hover {
+    background-color:#ff69b4;
+    
+}
+
+.dropdown:hover {
+    background-color: dimgray;
+    
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+/*facilities page*/
+
+.fac_body{
+    padding: 0;
+	margin: 0;
+    background-image: url(../images/on.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.li2{
+
+     font-size:15px;
+     font-weight: bold;
+     color: white;
+    
+}
+
+
+.head2{
+	 font-size:28px;
+     font-weight: bold;
+     color:black;
+}
+
+.fac{
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+    list-style-type: square;
+    list-style-position: inside;
+    font-size: 18px; 
+}
+
+	
+/*Contact page*/
+
+.contact_body {
+	padding: 0;
+	margin: 0;
+    background-image: url(../images/on.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.map{
+	float: center;
+	width: 55%;
+}
+.road{
+	
+	padding: 48px;
+}
+.form-box{
+    width: 452px;
+    height: 650px;
+    background: pink;
+    color: #ff20ff;
+    padding:85px;
+    opacity: 0.9;
+    margin-bottom:-5rem;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.form{
+    text-align: center;
+}
+.submit-button{
+
+  margin-top:10px;
+  background-color:#DA70D6;
+  padding:5px;
+  color:white;
+  width:150px;
+  font-size:18px;
+  font-weight:bold;
+}
+
+
+/*Footer*/
+
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 40%;
+    margin: 15px 0;
+    border-style: dotted;
+    border-radius: 5px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Booking page*/
+
+.book_body{
+    padding: 0;
+	margin: 0;
+    background-image: url(../images/on.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.book_para{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.but {
+    background-color: #ff1a66;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.but:hover;
+    background-color: #ff80aa;
+}
+
+
+.data4{
+    font-size:16px;
+     font-weight: bold;
+     color: black;
+     
+}
+
+input[type=text],textarea{
+  width : 80%;
+  margin: 0;
+  padding : 10px;
+  background:white;
+
+
+}
+
+input[type=email]{
+  width : 80%;
+  margin: 0;
+  padding : 10px;
+  background: white;
+
+}
+
+input[type=date]{
+  width : 80%;
+  margin: 0;
+  padding : 10px;
+  background: white;
+
+
+}
+
+input[type=time]{
+  width : 80%;
+  margin: 0;
+  padding : 10px;
+  background: white;
+
+}
+
+
+
+/*Log in*/
+
+.log_body{
+    padding: 0;
+	margin: 0;
+    background-image: url(../images/on.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*home*/
+.main{
+  width: 100%;
+  height: 100%;
+  background-image: url(images/pira.jpg);
+  background-size: cover;
+}
+
+.logo{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1123px;
+    width: 414px;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	
+	opacity: 1;
+	background-size:cover;
+	background-position:center;
+	
+}
+
+/*Registration box*/
+
+
+#box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 880px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 20px;
+    margin-top: 175px;
+    padding: 35px;
+}
+
+.box p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+
+}
+
+.box input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.box input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+
+
+
+.box input[type="submit"]{
+	 border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.box input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+
+/* Sign up button */
+.signupbtn{
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:400px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+/* Back button*/
+.backbtn{
+	margin-top:10px;
+	background-color:red;
+	padding:5px;
+	color:white;
+	width:200px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+
+.myform{
+	width:450px;
+	margin: 0 auto;
+
+}
+.inputvalues{
+	width:400px;
+	margin:0 auto;
+	padding:5px;
+	
+	
+}
+
+/* Login button*/
+.loginbtn{
+	margin-top:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:400px;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+
+/* Customer Register button*/
+.regbtn{
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:200px;
+	font-size:18px;
+    font-weight:bold;
+
+}
+
+/* Log out button*/
+#logoutbtn{
+	margin-top:10px;
+	background-color:#DA3E64;
+	padding:5px;
+	color:white;
+	width:50%;
+	font-size:18px;
+	font-weight:bold;
+}
+
+h2{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+
+.logo{
+
+	width:10%;
+	height:10%;
+	padding:left;
+
+}	
+
+
+/*Log in box*/
+
+
+#box_log {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 450px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 20px;
+    margin-top: 175px;
+    padding: 35px;
+}
+
+/*Regsitration of drivers*/
+
+.box_reg {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 950px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 20px;
+    margin-top: 175px;
+    padding: 35px;
+}
+
+
+.reg_body {
+	padding: 0;
+	margin: 0;
+    background-image: url(../images/on.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.data5{
+    font-size:16px;
+     color: white;
+     
+}
+
+
+
+/*driver button*/
+
+.driver_but{
+    color: white;
+}
+
+/*Admin */
+
+
+.admin_body{
+	width: 100%;
+	background-image: url(../images/adback.jpg);
+	background-size: cover;
+}
+
+
+.nav{
+	width: 50%;
+	height: 80px;
+	background-color: #0009;
+	line-height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.nav ul{
+	float: center;
+	margin-right: 50px;
+
+}
+
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition:0.8s all;
+	margin-left: 60px;
+}
+
+.nav ul li:hover{
+	background-color:#FF69B4; 
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+	font-family: comic sans MS;
+	text-align: justify;
+}
+	
+
+.adlo img{
+
+	margin: 0 auto;
+	width: 150px;
+	margin-left: 600px;
+}
+
+.logoutbtn{
+
+	margin-top:10px;
+	background-color:#DC143C;
+	padding:5px;
+	color:white;
+	width:150px;
+	font-size:18px;
+	font-weight:bold;
+	margin-left: 600px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+
+
+.btn{
+    
+    width : 250px;
+    height: 40px;
+    background: #ffebcc;
+    font-family: calibri;
+    font-size:20px;
+    font-weight: bold;
+    
+    
+}
+
+/*Customer page*/
+
+.cus_body{
+    width: 100%;
+	height: 100%;
+	background-image: url(../images/cusback.jpg);
+    background-size: cover;
+}
+
